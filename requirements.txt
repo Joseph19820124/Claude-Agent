@@ -1,0 +1,29 @@
+# Requirements file for Claude-Agent Multi-Agent System
+# AutoGen 0.4.x compatible dependencies
+
+# Core AutoGen packages
+autogen-agentchat>=0.4.0
+autogen-ext[openai]>=0.4.0
+
+# OpenAI integration (included with autogen-ext[openai] but specified for clarity)
+openai>=1.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Development and testing dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Utility packages
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# For advanced logging and monitoring (optional)
+structlog>=23.0.0
+
+# For async operations support
+asyncio-compat>=0.2.0
